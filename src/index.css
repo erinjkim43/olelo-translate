@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-uhwo-red: #a71930;
+  --color-uhwo-red-hover: #ca1d39;
+  --color-uhwo-red-active: #da2341;
+  --color-uhwo-green: #1d5b24;
+  --color-uhwo-green-hover: #287831;
+  --color-uhwo-bg: #f7f7f7;
+  --color-uhwo-text: #494949;
+  --color-uhwo-heading: #252525;
+  --color-uhwo-footer-bg: #f5f5f5;
+  --color-uhwo-footer-text: #5f676f;
+  --color-uhwo-footer-border: #cccccc;
+  --color-uhwo-border: #d5d5d5;
+  --font-family-sans: "Open Sans", sans-serif;
+}
+
+body {
+  font-family: var(--font-family-sans);
+  color: var(--color-uhwo-text);
+  background-color: var(--color-uhwo-bg);
+  margin: 0;
+}
