@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  base: "/tools/olelotranslate/",
+  base: process.env.VITE_BASE_PATH ?? "/tools/olelotranslate/",
   plugins: [react(), tailwindcss()],
 });

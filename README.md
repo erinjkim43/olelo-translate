@@ -63,6 +63,21 @@ npm run build
 
 The production build outputs to `dist/`.
 
+### Custom Base Path
+
+The app's base path is configurable via the `VITE_BASE_PATH` environment variable. This lets you deploy to different subpaths without changing code:
+
+```bash
+# Default: /tools/olelotranslate/
+npm run build
+
+# Custom subpath
+VITE_BASE_PATH=/olelotranslate/ npm run build
+
+# Root path
+VITE_BASE_PATH=/ npm run build
+```
+
 ## Tech Stack
 
 - [React 19](https://react.dev/)
